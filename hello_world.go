@@ -1,4 +1,4 @@
-package main // package name 'main'
+package main
 
 import "fmt"
 
