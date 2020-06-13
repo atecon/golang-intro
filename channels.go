@@ -16,7 +16,7 @@ func pinger() {
 
 func printer() {
 	for {
-		msg := <-c // reads from channel -- blocks the chanel + waits for new stream
+		msg := <-c // reads from channel -- wait for new incoming stream for continuation
 		fmt.Println("got:", msg)
 	}
 }
